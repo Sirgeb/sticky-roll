@@ -1,0 +1,40 @@
+.round_container {
+  z-index: 1;
+  .round {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90px;
+    width: 90px;
+    background-color: indigo;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px 10px #121212, 
+    0px 0px 0px 11px #333333;
+    box-sizing: border-box;
+    .inner {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      width: calc(100% - 10px);
+      height: calc(100% - 10px);
+      border-radius: 100%;
+      border: 1px solid #4F4F4F;
+      .icon {
+        height: 60%;
+        width: 60%;
+      }
+    }
+  }
+  &.top {
+    margin-top: -90px;
+    .text {
+      margin-bottom: 20px;
+    }
+  }
+  &.bottom {
+    margin-top: 90px;
+    .text {
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-trigger {
+  width: 100vw;
+  height: 100vh;
+  transition: background-color 0.3s ease-in-out;
+  background-color: #121212;
+}
+
+.particle-root {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* .custom-trigger--0 {
+  background-color: hsl(0, 100%, 70%);
+}
+.custom-trigger--1 {
+  background-color: hsl(120, 100%, 70%);
+}
+.custom-trigger--2 {
+  background-color: hsl(240, 100%, 70%);
+}
+.custom-trigger--3 {
+  background-color: hsl(360, 100%, 70%);
+} */
